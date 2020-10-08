@@ -20,28 +20,33 @@
     var CONFIG = {"hostname":"willmajor.github.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="willmajor">
-<meta property="og:url" content="https://willmajor.github.com/index.html">
+  <meta name="description" content="开发环境有很多工具，默认配置依赖国外的数据源，在国内使用，安装和更新都很不方便，替换成国内的数据源提速效果显著，使用感极佳，汇总下平常使用到的各个数据源配置，当做备忘。 homebrewMac安装Homebrew并更换国内镜像源 python pip在~&#x2F;.pip&#x2F;pip.conf文件（没有则新建）中配置如下内容： 12345$ cat .pip&#x2F;pip.conf[global]index-url">
+<meta property="og:type" content="article">
+<meta property="og:title" content="开发环境加速">
+<meta property="og:url" content="https://willmajor.github.com/2020/10/05/accelerate-development-evironment/index.html">
 <meta property="og:site_name" content="willmajor">
+<meta property="og:description" content="开发环境有很多工具，默认配置依赖国外的数据源，在国内使用，安装和更新都很不方便，替换成国内的数据源提速效果显著，使用感极佳，汇总下平常使用到的各个数据源配置，当做备忘。 homebrewMac安装Homebrew并更换国内镜像源 python pip在~&#x2F;.pip&#x2F;pip.conf文件（没有则新建）中配置如下内容： 12345$ cat .pip&#x2F;pip.conf[global]index-url">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-10-04T20:47:48.000Z">
+<meta property="article:modified_time" content="2020-10-06T16:35:23.055Z">
 <meta property="article:author" content="William Wong">
+<meta property="article:tag" content="productivity">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://willmajor.github.com/">
+<link rel="canonical" href="https://willmajor.github.com/2020/10/05/accelerate-development-evironment/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>willmajor</title>
+  <title>开发环境加速 | willmajor</title>
   
 
 
@@ -140,9 +145,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -158,10 +164,9 @@
       <meta itemprop="name" content="willmajor">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/10/05/accelerate-development-evironment/" class="post-title-link" itemprop="url">开发环境加速</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          开发环境加速
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -181,6 +186,13 @@
               </span>
 
           
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
 
         </div>
       </header>
@@ -191,7 +203,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>开发环境有很多工具，默认配置依赖国外的数据源，在国内使用，安装和更新都很不方便，替换成国内的数据源提速效果显著，使用感极佳，汇总下平常使用到的各个数据源配置，当做备忘。</p>
+        <p>开发环境有很多工具，默认配置依赖国外的数据源，在国内使用，安装和更新都很不方便，替换成国内的数据源提速效果显著，使用感极佳，汇总下平常使用到的各个数据源配置，当做备忘。</p>
 <h3 id="homebrew"><a href="#homebrew" class="headerlink" title="homebrew"></a>homebrew</h3><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/StivenYang/p/12546605.html">Mac安装Homebrew并更换国内镜像源</a></p>
 <h3 id="python-pip"><a href="#python-pip" class="headerlink" title="python pip"></a>python pip</h3><p>在<code>~/.pip/pip.conf</code>文件（没有则新建）中配置如下内容：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> cat .pip/pip.conf</span></span><br><span class="line">[global]</span><br><span class="line">index-url = https://mirrors.aliyun.com/pypi/simple/</span><br><span class="line">[install]</span><br><span class="line">trusted-host = mirrors.aliyun.com</span><br></pre></td></tr></table></figure>
@@ -200,21 +212,26 @@
 
 <h3 id="ruby-gem"><a href="#ruby-gem" class="headerlink" title="ruby gem"></a>ruby gem</h3><p>详细信息见官方教程：<a target="_blank" rel="noopener" href="https://gems.ruby-china.com/">RubyGems China</a></p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> gem <span class="built_in">source</span> -l</span></span><br><span class="line">*** CURRENT SOURCES ***</span><br><span class="line"></span><br><span class="line">https://rubygems.org/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 添加国内源</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> gem sources --add https://gems.ruby-china.com</span></span><br><span class="line">https://gems.ruby-china.com added to sources</span><br><span class="line"></span><br><span class="line"><span class="meta">$</span><span class="bash"> gem <span class="built_in">source</span> -l</span></span><br><span class="line">*** CURRENT SOURCES ***</span><br><span class="line"></span><br><span class="line">https://rubygems.org/</span><br><span class="line">https://gems.ruby-china.com</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 删除国外源</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> gem <span class="built_in">source</span> -r https://rubygems.org/</span></span><br><span class="line">https://rubygems.org/ removed from sources</span><br></pre></td></tr></table></figure>
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/productivity/" rel="tag"># productivity</a>
+          </div>
+
+        
+
+
+        
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -267,6 +284,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#homebrew"><span class="nav-number">1.</span> <span class="nav-text">homebrew</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-pip"><span class="nav-number">2.</span> <span class="nav-text">python pip</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#node-npm"><span class="nav-number">3.</span> <span class="nav-text">node npm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ruby-gem"><span class="nav-number">4.</span> <span class="nav-text">ruby gem</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
